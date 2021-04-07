@@ -16,6 +16,14 @@
 
       <div class="row">
 
+        <!-- <ul>
+          <li v-for="index in 10">{{ index * factor }}</li>
+        </ul> -->
+
+        <img v-for="index in 10" v-bind:src="img[index - 1]" alt="">
+
+        <button @click="">Successiva</button>
+
       </div>
 
     </div>
