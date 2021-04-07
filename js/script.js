@@ -12,6 +12,7 @@ function initVue() {
         'Giorgio',
         'Francesca'
       ],
+      'index': 0,
       'factor': 1.7,
       'img': [
         'img/img1.jpg',

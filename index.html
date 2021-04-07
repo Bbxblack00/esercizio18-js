@@ -20,9 +20,14 @@
           <li v-for="index in 10">{{ index * factor }}</li>
         </ul> -->
 
-        <img v-for="index in 10" v-bind:src="img[index - 1]" alt="">
+        <img v-if="img" src="img/img1.jpg">
+        <img v-else src="img/img2.jpg">
 
-        <button @click="">Successiva</button>
+        <button @click="flipImg">Successiva</button>
+
+        <ul>
+          <li v-for="index in 10">{{ index }}</li>
+        </ul>
 
       </div>
 
